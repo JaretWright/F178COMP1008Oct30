@@ -50,6 +50,11 @@ public class Car extends Transport{
                                     model);
     }
 
+    @Override
+    public String getColour() {
+        return "dark blue";
+    }
+
  
     
     

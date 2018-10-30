@@ -4,7 +4,7 @@ package f18comp1008oct30;
  *
  * @author jwright
  */
-public abstract class Transport {
+public abstract class Transport implements Colours{
     private String manufacturer;
 
     public Transport(String manufacturer) {

@@ -21,5 +21,8 @@ public class Dog extends Pet{
         return String.format("%s is a dog", super.getPetName());
     }
    
-    
+      @Override
+    public String getColour() {
+        return "yellow";
+    }
 }

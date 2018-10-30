@@ -14,5 +14,10 @@ public class Boat extends Transport{
     public String movesBy() {
         return "propels through water";
     }
+
+    @Override
+    public String getColour() {
+        return "white";
+    }
     
 }

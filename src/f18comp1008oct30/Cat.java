@@ -20,4 +20,9 @@ public class Cat extends Pet{
     {
         return String.format("%s is a cat", super.getPetName());
     }
+
+    @Override
+    public String getColour() {
+        return "white";
+    }
 }
