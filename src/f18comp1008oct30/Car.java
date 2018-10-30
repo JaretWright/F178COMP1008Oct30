@@ -40,7 +40,14 @@ public class Car extends Transport{
 
     @Override
     public String movesBy() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return "rolls on pavement";
+    }
+    
+    @Override
+    public String toString()
+    {
+        return String.format("%d %s %s", year, super.getManufacturer(),
+                                    model);
     }
 
  
