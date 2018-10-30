@@ -10,7 +10,7 @@
         <URL value="@createpersonview.css" />
     </stylesheets>
    <children>
-      <Label layoutX="131.0" layoutY="84.0" text="Name: ">
+      <Label fx:id="nameLabel" layoutX="131.0" layoutY="84.0" text="Name: ">
          <font>
             <Font size="24.0" />
          </font>
